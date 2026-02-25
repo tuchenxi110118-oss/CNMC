@@ -5,159 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>草泥马币 (CNMC) - 快乐第一</title>
     <style>
-        :root {
-            --primary-color: #f39c12; 
-            --bg-color: #f4f6f7;
-            --text-color: #333;
-            --card-bg: #ffffff;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-        }
-        header {
-            background-color: var(--card-bg);
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-
-        .hero {
-            text-align: center;
-            padding: 60px 20px;
-            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
-            color: white;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-
-        .hero img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid white;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        .slogan {
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .slogan-en {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
-
-        .card h2 {
-            color: var(--primary-color);
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        .stats {
-            background: #fff3cd;
-            color: #856404;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            font-size: 1.2rem;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .lang-section {
-            margin-bottom: 25px;
-        }
-
-        .lang-section h3 {
-            margin-bottom: 10px;
-            color: #555;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            background-color: #2c3e50;
-            color: white;
-            font-size: 0.9rem;
-        }
-
-        .disclaimer {
-            opacity: 0.7;
-            font-size: 0.8rem;
-            margin-top: 10px;
-        }
+        :root { --primary-color: #f39c12; --bg-color: #f4f6f7; --text-color: #333; --card-bg: #ffffff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Helvetica Neue', Arial, sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        .hero { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+        .hero img { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; border: 5px solid white; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin-bottom: 20px; }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+        .slogan { font-size: 1.5rem; font-weight: bold; margin-bottom: 5px; }
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .card { background: var(--card-bg); border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .card h2 { color: var(--primary-color); border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+        .stats { background: #fff3cd; color: #856404; padding: 15px; border-radius: 8px; text-align: center; font-size: 1.2rem; font-weight: bold; margin-bottom: 20px; }
+        footer { text-align: center; padding: 30px; background-color: #2c3e50; color: white; font-size: 0.9rem; }
     </style>
 </head>
 <body>
-
     <div class="hero">
-        < img src="https://raw.githubusercontent.com/tuchenxi110118-oss/CNMC/main/cnmc.jpg" alt="CNMC Logo" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: 5px solid white; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin-bottom: 20px;">
+        < img src="https://raw.githubusercontent.com/tuchenxi110118-oss/CNMC/main/cnmc.jpg" alt="CNMC Logo">
         <h1>草泥马币 (CNMC)</h1>
         <div class="slogan">草泥马币，快乐第一</div>
         <div class="slogan-en">CNMC: Joy First, Profit Second</div>
     </div>
-
     <div class="container">
         <div class="card">
             <h2>核心设定 | Core Concepts</h2>
-            <div class="stats">
-                总供应量 / Total Supply: 666,666,666 CNMC
-            </div>
-            <p><strong>发行理念：</strong>以“草泥马”的网络文化符号为核心，主打轻松、反内卷、社区自治的 meme 币赛道，拒绝严肃金融叙事，主打“快乐持有”。</p >
+            <div class="stats">总供应量 / Total Supply: 666,666,666 CNMC</div>
+            <p><strong>发行理念：</strong>以“草泥马”的网络文化符号为核心，主打轻松、反内卷、社区自治的 meme 币赛道。</p >
         </div>
-
         <div class="card">
             <h2>官方简介 | Introduction</h2>
-            
-            <div class="lang-section">
+            <div style="margin-bottom: 20px;">
                 <h3>🇨🇳 中文</h3>
-                <p>草泥马币（CNMC）是基于 meme 文化诞生的社区自治代币，以标志性的“草泥马”形象为精神符号，传递“拒绝焦虑、躺平也能快乐”的生活态度。我们不承诺暴富，只提供一个让大家一起玩梗、吐槽、分享快乐的去中心化社区。每一笔交易的 1% 将自动注入流动性池，同时 1% 用于全球羊驼保护项目，让 meme 也能有温度。</p >
+                <p>草泥马币（CNMC）传递“拒绝焦虑、躺平也能快乐”的生活态度。每一笔交易的 1% 自动注入流动性池，1% 用于全球羊驼保护项目。</p >
             </div>
-
-            <div class="lang-section">
+            <div>
                 <h3>🇬🇧 English</h3>
-                <p>Cao Ni Ma Coin (CNMC) is a community-governed token born from meme culture, with the iconic "grass mud horse" as its spiritual symbol, conveying the life attitude of "rejecting anxiety and finding joy even when lying flat". We do not promise overnight wealth, but only provide a decentralized community for everyone to play memes, vent frustrations, and share happiness together. 1% of each transaction is automatically injected into the liquidity pool, and another 1% is used for global alpaca conservation projects, making memes warm and meaningful.</p >
+                <p>CNMC: conveying the life attitude of "rejecting anxiety and finding joy even when lying flat". 1% to LP, 1% to alpaca conservation.</p >
             </div>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2026 草泥马社区 (CNMC Community). All rights reserved.</p >
-        <p class="disclaimer">⚠️ 风险提示：Meme 币仅供娱乐，无实际内在价值，价格波动极大。请勿投入您无法承受损失的资金。本网站不构成任何投资建议。</p >
     </footer>
-
 </body>
 </html>
